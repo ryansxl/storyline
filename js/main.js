@@ -62,7 +62,6 @@ let _storyline_data,    // the raw lines data, loaded from data/[dataset_name]/l
  * @return - no return value (and no callbacks)
  */
 function go() {
-  alert('111');
   console.log('-- loading the [' + $("#dataset_dropdown").val() + '] dataset --');
   var q = d3.queue();
   q.defer(loadColors)       // load colors file (if it exists)
